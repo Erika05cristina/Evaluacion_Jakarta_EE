@@ -8,18 +8,18 @@
 <body> 
 <h1>Listado planillas</h1>
 
-    <h:dataTable value="#{planillas.listado}" var="ciudad">
+    <h:dataTable value="#{planillas.listado}" var="planilla">
         <h:column>
             <f:facet name="header">Codigo</f:facet>
-            #{planillas.planilla.pla_codigo}
-        </h:column>
+            #{planilla.pla_codigo}
+                    </h:column>
         <h:column>
             <f:facet name="header">Mes</f:facet>
-            #{planillas.planilla.pla_mes}
+            #{planilla.pla_mes}
         </h:column>
         <h:column>
             <f:facet name="header">Consumo</f:facet>
-            #{planillas.planilla.pla_consumo}
+            #{planilla.pla_consumo}
         </h:column>
     </h:dataTable>
 
