@@ -15,7 +15,7 @@ public class Planilla {
 	private String pla_codigo;
 	
 	@Column(name="pla_mes")
-	private String per_cedula;
+	private String pla_mes;
 	
 	@Column(name="pla_ciudad")
 	private String pla_ciudad;
@@ -34,14 +34,6 @@ public class Planilla {
 
 	public void setPla_codigo(String pla_codigo) {
 		this.pla_codigo = pla_codigo;
-	}
-
-	public String getPer_cedula() {
-		return per_cedula;
-	}
-
-	public void setPer_cedula(String per_cedula) {
-		this.per_cedula = per_cedula;
 	}
 
 	public String getPla_ciudad() {
@@ -66,6 +58,14 @@ public class Planilla {
 
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+
+	public String getPla_mes() {
+		return pla_mes;
+	}
+
+	public void setPla_mes(String pla_mes) {
+		this.pla_mes = pla_mes;
 	}
 	
 	
